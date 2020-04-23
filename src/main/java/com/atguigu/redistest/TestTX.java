@@ -35,6 +35,6 @@ public class TestTX {
     public static void main(String[] args) throws InterruptedException {
         TestTX testTX = new TestTX();
         boolean b =  testTX.transMethod();
-        System.out.printf(String.valueOf(b));
+        System.out.println(String.valueOf(b));
     }
 }
